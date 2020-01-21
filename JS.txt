@@ -1,0 +1,26 @@
+String util methods
+
+let string = 'frase'
+
+string.include(<valor a pesquisar>): pesquisa na string o valor passado por parametro e retorna um valor boolean
+
+
+
+
+Number util methods
+
+let num = 1025.125
+
+num.toFixed(<numero de decimais depois da virgula>): limita as casas decimais
+
+
+
+Math util methods
+Math.round(num): arredonda o valor decimal
+Math.floor(num): arredonda pra baixo
+Math.Ceil(num): arredonda para cima
+
+document.querySelector('<valor>'): retorna a primeira aparição do objeto no documento
+
+document.querySelectorAll('<valor>'): retorna uma lista com todos os objetos encontrados
+
