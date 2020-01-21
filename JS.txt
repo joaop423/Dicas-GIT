@@ -24,3 +24,8 @@ document.querySelector('<valor>'): retorna a primeira aparição do objeto no docu
 
 document.querySelectorAll('<valor>'): retorna uma lista com todos os objetos encontrados
 
+https://adp-gptlearning.udemy.com/course/modern-javascript/learn/lecture/9862408#questions/9118410
+
+user: jarismar.silva@adp.com
+pwd: adpadp2020
+
