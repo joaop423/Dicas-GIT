@@ -1,3 +1,10 @@
+get a property de um object: object.propertyName
+set a property de um object: object.propertyName = value
+
+
+
+
+
 String util methods
 
 let string = 'frase'
@@ -15,6 +22,11 @@ num.toFixed(<numero de decimais depois da virgula>): limita as casas decimais
 
 
 
+Arrays Methods
+
+array.filter(<logical test function>): retorna um array contendo apenas os elementos filtrados pela função de teste logico
+
+
 Math util methods
 Math.round(num): arredonda o valor decimal
 Math.floor(num): arredonda pra baixo
@@ -25,6 +37,7 @@ document.querySelector('<valor>'): retorna a primeira aparição do objeto no docu
 document.querySelectorAll('<valor>'): retorna uma lista com todos os objetos encontrados
 
 addEventListener('<event>', function)
+e: event
 
 INPUT
 tag <input>(sem fechamento) 
