@@ -1,0 +1,17 @@
+FORMULARIO
+<form>
+<input name="">
+<button>Submit</button>
+</form>
+
+formulario arquiva informaçoes dos inputs, quando é dado o submit, pode ser dado submit por qualquer button dentro do form ou pela tecla enter
+
+no event do form é necessario usar o metodo, preventDefault() 
+
+
+CHECKBOX
+<label>
+<input type="checkbox"> texto a ser checado
+</label>
+
+e.target.checked

@@ -1,0 +1,11 @@
+tipos vazios
+undefined: valor default do objeto quando não lhe é atribuido valor.
+null: valor vazio explicitado pelo desenvolvedor
+.
+pode se deixar vazio parametros que voce não quer definir, porém os primeros da ordem precisa explicitar undefined
+
+function(a, b = 0){} : o parâmetro b, só vai receber o valor default de 0, caso não for definido um valor para ele na chamada.
+
+
+atributos: propertys
+métodos: functions
