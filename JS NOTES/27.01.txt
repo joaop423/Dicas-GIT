@@ -1,0 +1,35 @@
+DROPDOWN
+
+Obs: menu utilizado para selecionar uma opção o qual o valor pode ser pego por value.
+<select id="filter-by">
+<option value ="byName">Sort by name</option>
+<option value ="byLowerPrice">Sort by lower price</option>
+<option value ="byHigherPrice">Sort by higher price</option>
+</select>
+
+
+LOCAL STORAGE
+
+Obs: armazena os dados salvos do navegador, em um diretorio local da maquina para quando a pagina for recarregada, os dados não serem perdidos, o localStorage apenas armazena valores em String.
+
+LocalStorage: variavel global fornecida pelo browser para acessar os métodos de armazenamento local.
+
+localStorage.setItem('<Key>', '<value>'): metodo que armazena um valor String no localStorage com um identificador definido pelo parâmetro key.
+
+localStorage.getItem('<Key>'): retorna o valor da localStorage de acordo com a key passada por parâmetro
+
+localStorage.removeItem('<Key>'): remove um elemento do localStorage
+
+localStorage.clear(): remove todos os elementos do localStorage
+
+
+JSON: (javascript Object Notation), variavel global fornecida pelo browser que converte elementos em strings e converte de volta.
+
+JSON.stringify(): converte Objetos em Strings
+
+JSON.parse ('<Objeto>'): converte Strings em Objetos
+
+
+AUTO INVOKE FUNCTIONS: (function name(params){...})(): funcões que executão sem chamado
+
+ordem de precedencia do codigo importa, quando há refactoring é visível essa ordem
