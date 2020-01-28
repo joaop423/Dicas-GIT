@@ -1,0 +1,4 @@
+array.findIndex(function(arrayElement){teste lógico}): retornda o indice no array do primeiro elemento que satisfazer o teste lógico, caso não encontre nenhum retorna -1
+
+array.splice(<indice>, <num de elementos a remover a partir do indice>, (<elemento a adicionar>(opcional)))
+
