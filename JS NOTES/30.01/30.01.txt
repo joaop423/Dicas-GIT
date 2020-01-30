@@ -1,0 +1,38 @@
+ARROW FUNCTIONS
+Definição: é uma sintaxe mais facil de definir uma função
+Obs: arrow functions não possui a local variable arguments, e this.
+
+Shorthand Syntax: sintaxe da aroow usada quando a function retorna apenas um valor simples.
+
+Exemplo normal: function(params) {.....}
+
+Exemplo arrow: (params) => {.....}
+
+Exemplo shortHand: () => 5*5
+
+
+
+OPERADOR TERNÁRIO
+Definição: usado para simplificar a sintaxe condicional quando em uma deterninada condição true irá retornar um simples valor e na condição false irá retornar outro
+
+Exemplo ifElse: if(teste lógico){return 2} else{return 4}
+
+Exemplo OperadorTernário: (teste lógico? 2:4)
+
+
+TRUTHY E FALSY
+Definição: valores que se comportam como true ou false em contextos booleanos
+falsy values: false, 0, empty String, null, undefined, NaN
+
+Exemplo lógico:
+É usado quando há necessidade de saber se algum objeto existe, caso ao note estiver atribuido um valor truthy ele representa true diretamente no contexto boolean,assim não precisando verificar se ele é diferente de undefined, pois se o valor de note for undefined note terá um valor falsy atribuido e represetará diretamente false no contexto boolean
+
+Exemplo redundante:
+if(note !== undefined){
+	log('existe')
+}
+
+Exemplo truthy
+if(note){
+	log('existe')
+}
