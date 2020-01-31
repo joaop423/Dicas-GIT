@@ -1,0 +1,21 @@
+babel <path no arquivo a ser compilado> --out-file=<path do arquivo convertido> : 
+
+Descrição: comando no terminal que compila um arquivo escrito em es6 e com JSX para outro arquivo convertendo o codigo para es5
+
+atributos:
+--presets=env,react: seta os presets instalados 
+--watch: atualiza as mudanças automaticamente no arquivo destino quando o arquivo origem é salvo
+
+
+
+
+
+
+elementos JSX só podem ser renderizados caso form enclausurados dentro dentro de uma tag apenas
+
+
+dentro do elemento jsx pode-se setar chaves {...} de e o conteudo dessas chaves poderá ser qualquer expressão javascript
+var name = 'vito'
+var elementoJSX = <p>{name}</p>
+
+quando passado (undefined,null,false,true) para o elemento JSXé ignorado e nada é mostrado na tela,
