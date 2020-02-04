@@ -1,0 +1,24 @@
+React
+
+Eventos Funçoes e parenteses
+quando referenciadas funçoes para determinados eventos, não se deve usar os parenteses()
+
+Exemplo:
+onClick={function()} - ERRADO
+onClick={function} - CERTO
+
+pois com os parenteses irá tentar sempre resgatar o valor de retorno da função, caso for uma função void ira retornar undefined para dentro do bloco
+
+Exemplo:
+onClick={function()} == onClick={undefined}
+
+sem os parenteses apenas irá referenciar a função pedida
+
+
+
+Atributo disabled no button:
+Função: desabilita o botão caso o teste lógico for true, por default é true
+Sintaxe:
+<button disabled={teste lógico}></button>
+
+!!<elemento>: retorna o valor (truthy ou falsy) o elemento como (false ou true)

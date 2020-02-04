@@ -21,8 +21,8 @@ var elementoJSX = <p>{name}</p>
 quando passado (undefined,null,false,true) para o elemento JSXé ignorado e nada é mostrado na tela,
 
 
-
-
 Exemplo Logical And(JSX): ((teste lógico)&&(<o que voce deseja retornar(truthy)>)) -- irá retornar o elemento (truthy) caso passe o teste lógico, irá retornar false caso contrario.
 
+
 var, let e const só são acessadas dentro de uma scope function, porém const e let são block scoped ou seja quando declaradas dentro de um bloco de codigo exemplo:(if, for), não podem ser acessadas fora do bloco
+
