@@ -1,0 +1,42 @@
+React Component
+
+Sintaxe: class <nome da classe com a primeira letra Maiúscula> extends React.Component{
+//metodo render obrigatório 
+
+render(){
+	......return.....
+}
+}
+
+callBack do component: <<nome da classe com a primeira letra Maiúscula>/>
+
+
+PROPS
+Definição: tudo que for passado por parametro no callback do component se torna um atributo acessável dentro da classe component
+
+Exemplo de Sintaxe: 
+
+Sintaxe: class ClasseTeste extends React.Component{
+render(){
+	return(
+	<div>
+	{this.props.titulo}
+	</div>
+	)
+}
+}
+
+<ClasseTeste titulo="teste" />
+
+
+ARRAY.MAP(FUNCTION):
+uso: converte um array comum em um array com tags vinculadas
+
+Exemplo de sintaxe:
+array.map((arrayItem)=>{
+	return <p>arrayItem</p>
+})
+
+
+OVERRIDE O CONSTRUTOR DE UM REACT COMPONENT
+é necessario chamar o metodo super passando props como parametro para ele
