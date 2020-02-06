@@ -1,0 +1,54 @@
+COMUNICAÇÃO DE COMPONENTE FILHO COM PAI USANDO METODOS COM PARAMETROS
+Definição: Para interagir com um método de um componente 'pai' que possui parametros, basta passar esse metodo como props para o componete filho, e no componente filho chamar o metodo usando os parametros fornecidos no componente filho
+
+Exemplo de Sintaxe:
+
+/*COMPONENTE PAI*/{
+metodo(parametro){^
+.......
+
+render(){
+...<COMPONENTE FILHO metodo={metodo}/>
+}
+}
+}
+
+/*COMPONENTE FILHO*/{
+numero = 5
+this.props.metodo(numero)
+}
+
+
+
+STATELESS FUNCTIONAL COMPONENT
+
+Definição: são components mais simples que não possuem states(porém aceitam props), a função praticamente substitui o metodo render() do Class component.
+
+Obs: 
+1.caso o componente venha a ter props é necessario declarar "props" no parametro da função assim como no exemplo
+2.não é mais usado *this* para referenciar props
+
+Exemplo de sintaxe:
+
+Const User = (props) =>{
+	return(
+		<div>
+		<span>Nome: {props.nome}</span>
+		<span>Idade: {props.idade}</span>
+		</div>
+		)
+	}
+
+Exemplo de callback: <User nome="joao" idade="18" />
+
+
+
+DEFINIR VALORES DEFAULTS PARA DETERMINADOS PROPS
+Obs:utiliza esse metodo fora do component em questão
+
+Exemplo de Sintaxe:
+Component.defaultProps = {
+	prop1: <valor>
+	prop2: <valor>
+	...	
+}
