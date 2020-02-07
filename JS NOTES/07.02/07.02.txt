@@ -1,0 +1,28 @@
+Quando o component filho recebe uma função com parametros e vai executa-la quando acionado um evento a função deverá ser referenciada dentro de uma função com o evento 'e' como parametro.
+
+Exemplo de Sintaxe:
+/*COMPONENT PAI*/
+mostraDado(dado){
+	console.log(dado);
+}
+
+render(){
+	return <COMPONENT FILHO mostraDado={this.mostraDado}/>
+}
+
+/*COMPONENT FILHO*/
+render(){
+	return(
+	<button onClick={(e) =>{this.props.mostradado(dado)}}>Mostra Dado</button>
+	)
+}
+
+METODOS LIFECYCLE
+
+componentDidMount: metodo que quando override na component class, executa automaticamente assim quando o componente é renderizado pela primeira vez.
+
+componentDidUpdate: metodo que quando override na component class, executa automaticamente assim quando o componente é atualizado e re-renderizado.
+
+render(): metodo que quando override na component class, renderiza seu conteudo para quem chama o metodo, (metodo padrão do component)
+
+constructor(): metodo que quando override na component class,  define suas preferencias e atualiza o construtor (setando os stats por exemplo)

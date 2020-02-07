@@ -52,3 +52,9 @@ Component.defaultProps = {
 	prop2: <valor>
 	...	
 }
+
+
+USAR SHORTHAND ARROW FUNCTION PARA RETORNAR OBJETO
+Obs: deve isolar o objeto a ser retornado dentro de parenteses(), pois caso contario os {} seram entendidos como o corpo da função.
+const arrow = () => {} - errado
+const arrow = () => ({}) - certo
